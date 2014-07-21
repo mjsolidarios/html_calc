@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" src="js/main.js">
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>My Calculator</h1>
+            <hr />
+            <input id="calc_input" type="text" />
+
+            <button id="btn1" class="calc_btn" value="1" onclick="appendVal('btn1')">1</button>
+            <button id="btn2" class="calc_btn" value="2" onclick="appendVal('btn2')">2</button>
+            <button id="btn3" class="calc_btn" value="3" onclick="appendVal('btn3')">3</button>
+            <button id="btn4" class="calc_btn" value="4" onclick="appendVal('btn4')">4</button>
+            <button id="btn5" class="calc_btn" value="-" onclick="appendVal('btn5')">-</button>
+            <br />
+            <button id="btn6" class="calc_btn" value="5" onclick="appendVal('btn6')">5</button>     
+            <button id="btn7" class="calc_btn" value="6" onclick="appendVal('btn7')">6</button>
+            <button id="btn8" class="calc_btn" value="7" onclick="appendVal('btn8')">7</button>
+            <button id="btn9" class="calc_btn" value="8" onclick="appendVal('btn9')">8</button>
+            <button id="btn10" class="calc_btn" value="+" onclick="appendVal('btn10')">+</button>
+            <br />
+            <button id="btn11" class="calc_btn" value="9" onclick="appendVal('btn11')">9</button>
+            <button id="btn12" class="calc_btn" value="0" onclick="appendVal('btn12')">0</button>
+            <button id="btn13" class="calc_btn" value="." onclick="appendVal('btn13')">.</button>
+            <button id="btn14" class="calc_btn" value="%" onclick="appendVal('btn14')">%</button>
+            <button id="btn15" class="calc_btn" value="/" onclick="appendVal('btn15')">/</button>
+            <br />           
+            <button id="btn16" class="calc_btn" value="(" onclick="appendVal('btn16')">(</button>
+            <button id="btn17" class="calc_btn" value=")" onclick="appendVal('btn17')">)</button>
+            <button id="btn18" class="calc_btn" value="{" onclick="appendVal('btn18')">{</button>
+            <button id="btn19" class="calc_btn" value="}" onclick="appendVal('btn19')">}</button>         
+            <button id="btn20" class="calc_btn" value="*" onclick="appendVal('btn20')">*</button>        
+            <br />
+            <button id="btn21" class="calc_btn" value="[" onclick="appendVal('btn21')">[</button>
+            <button id="btn22" class="calc_btn" value="]" onclick="appendVal('btn22')">]</button>
+            <button id="result" class="calc_btn" style="width:8em" onclick="getresult()">=</button>
+            <br />
+            <button id="clear" class="calc_btn" style="width:8em" onclick="clearme()">C</button>
+            
+        </div>          
+    </body>
+</html>
